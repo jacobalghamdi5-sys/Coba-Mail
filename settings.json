@@ -1,0 +1,25 @@
+{
+    "application_metadata": {
+        "name": "Cmail Platform Core",
+        "version": "3.5.0-Stretched",
+        "system_status": "OPERATIONAL",
+        "environment": "Production Sandbox Enclave"
+    },
+    "security_enclave_rules": {
+        "encryption_algorithm": "AES-GCM-256-Local",
+        "enforce_local_storage_vault": true,
+        "max_failed_login_attempts": 3,
+        "lockout_duration_seconds": 900,
+        "two_step_verification_active": true
+    },
+    "network_routing_matrices": {
+        "primary_cluster_node": "GO_CLUSTER_NODE_ALPHA_99",
+        "telemetry_logging_interval_ms": 1000,
+        "firewall_state": "STRETCHED",
+        "coppa_compliance_strict_mode": true
+    },
+    "localization_settings": {
+        "default_language": "en",
+        "supported_locales": ["en", "es", "fr", "id", "de", "ja"]
+    }
+}
